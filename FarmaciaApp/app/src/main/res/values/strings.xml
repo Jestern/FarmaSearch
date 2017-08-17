@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Farmacias App</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_user">Usuario</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Iniciar sesión</string>
+    <string name="register">Registrar</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">Contraseña demasiado corta. Mínimo 5 caracteres.</string>
+    <string name="error_incorrect_password">Usuario o cotraseña incorrecta.</string>
+    <string name="error_field_required">Este campo es requerido. </string>
+    <string name="error_pass_no_equals">Las contraseñas no coinciden. </string>
+    <string name="error_not_free_user">Este nombre de usuario ya existe. </string>
+    <string name="error_not_free_mail">Ya existe una cuenta vinculada a este email. </string>
+    <string name="cont_legal">"Según lo establecido en la Ley 34/2002, de 11 de julio, de servicios de la sociedad de la información y de comercio electrónico, a continuación se indican los datos de información general de este sitio web: Titulares: Eila y Elías.
+        1. IDENTIDAD DEL TITULAR DEL SITIO WEB: Eila y Elías, en adelante: la App, Farmacias App.
+        2. CONDICIONES DE USO Y ACEPTACIÓN Las presentes Condiciones (conocidas como Aviso Legal) tienen por objeto regular el uso de la App, que su titular pone a disposición del público desde AppStore. La utilización de la App por un tercero le atribuye la condición de Usuario y, supone la aceptación plena por dicho Usuario, de todas y cada una de las condiciones que se incorporan en el presente Aviso Legal. El titular de la App puede ofrecer a través de la App, contenidos y/o servicios que podrán encontrarse sometidas a unas condiciones particulares propias que, según los casos, sustituyen, completan y/o modifican las presentes Condiciones, y sobre las cuales se informará al Usuario en cada caso concreto.
+        3. USO CORRECTO DEL SITIO WEB El Usuario se compromete a utilizar la App, los contenidos y servicios de conformidad con la Ley, el presente Aviso Legal, las buenas costumbres y el orden público. Del mismo modo, el Usuario se obliga a no utilizar la App o los servicios que se presten a través de él con fines o efectos ilícitos o contrarios al contenido del presente Aviso Legal, lesivos de los intereses o derechos de terceros, o que de cualquier forma pueda dañar, inutilizar o deteriorar la App o sus servicios, o impedir un normal disfrute de la App por otros Usuarios. El uso de todos los contenidos y servicios, en su caso, se regirán por el más escrupuloso respeto a la legalidad vigente, reconocida en nuestra Constitución y demás normativa legal. No permitiéndose ningún tipo de ataque ofensivo, injurioso etc. que pueda ser objeto de una violación de derecho de cualquier persona o institución. El administrador de los contenidos y servicios moderará su contenido, teniendo la capacidad de eliminar aquellos contenidos que puedan resultar atentatorios. Asimismo, el Usuario se compromete expresamente a no destruir, alterar, inutilizar o, de cualquier otra forma, dañar los datos, programas o documentos electrónicos y demás que se encuentren en la presente App. El Usuario se compromete a no obstaculizar el acceso de otros usuarios al servicio de acceso mediante el consumo masivo de los recursos informáticos a través de los cuales el titular de la App presta el servicio, así como realizar acciones que dañen, interrumpan o generen errores en dichos sistemas. El Usuario se compromete a no introducir programas, virus, macros, applets, controles ActiveX o cualquier otro dispositivo lógico o secuencia de caracteres que causen o sean susceptibles de causar cualquier tipo de alteración en los sistemas informáticos del titular de la App o de terceros."
+        </string>
+    <string name="error_not_free_user_and_mail">Ya existe una cuenta con el nombre de usuario
+        proporcionado y vinculada a este email. </string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_basic">Basic</string>
+    <string name="n_user">Nombre de Usuario</string>
+    <string name="rep_pass">Repetir contraseña</string>
+    <string name="email">Email</string>
+    <string name="f_name">Nombre</string>
+    <string name="l_name">Apellidos</string>
+    <string name="title_activity_inicio">InicioActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_selecionar_farmacia">Selecionar Farmacia</string>
+    <string name="title_activity_productos">Elegir productos</string>
+    <string name="title_activity_cesta">Mi Cesta</string>
+    <string name="title_activity_pago">Elegir forma de pago</string>
+    <string name="title_activity_perfil_actvity">Mi Perfil</string>
+    <string name="title_activity_pedidos">Mis Pedidos</string>
+    <string name="title_activity_preguntas">Preguntas frecuentes</string>
+    <string name="title_activity_legal">Ayuda/Información Legal</string>
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:clickable="true"
+    android:layout_height="80dp"
+    android:paddingLeft="18dp"
+    android:orientation="horizontal"
+    tools:context=".CestaActivity" >
+
+
+    <TextView
+        android:id="@+id/nombreProductoCesta"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="TextView"
+        android:enabled="true"
+        android:textColor="#000000"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:paddingLeft="18dp"
+        android:id="@+id/cantidadItemsCesta"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="20 "
+        android:textColor="#000000"
+        android:layout_centerVertical="true"
+        android:layout_alignTop="@+id/nombreProductoCesta"
+        android:layout_toStartOf="@+id/buttonQuitItem" />
+
+    <Button
+        android:layout_gravity="center"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="35dp"
+        android:layout_height="34dp"
+        android:text="+"
+        android:id="@+id/buttonAddItem"
+        android:backgroundTint="#ff8cd3"
+        android:layout_marginEnd="26dp"
+        android:layout_centerVertical="true"
+        android:layout_alignTop="@+id/buttonQuitItem"
+        android:layout_toStartOf="@+id/buttonQuitItem" />
+    <Button
+        android:layout_gravity="center"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="35dp"
+        android:layout_height="34dp"
+        android:text="-"
+        android:id="@+id/buttonQuitItem"
+        android:backgroundTint="#ff8cd3"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/imageButtonEliminarItem" />
+
+
+
+    <ImageButton
+
+        android:layout_gravity="center|left"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/imageButtonEliminarItem"
+        android:src="@android:drawable/ic_menu_delete"
+        android:layout_marginRight="0dp"
+        android:paddingStart="10dp"
+        android:cropToPadding="false"
+        android:adjustViewBounds="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginEnd="15dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>

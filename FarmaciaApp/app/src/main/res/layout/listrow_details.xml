@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:clickable="true"
+    android:orientation="horizontal"
+    android:paddingLeft="10dp"
+    tools:context=".ProductosActivity" >
+
+
+    <RelativeLayout
+        android:layout_width="110dp"
+        android:layout_height="108dp">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/imageViewProducto"
+            android:paddingTop="0dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true">
+
+            <TextView
+                android:id="@+id/textViewProductoNombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="5dp"
+                android:gravity="center_vertical"
+                android:text="Producto"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:paddingTop="1dp">
+            </TextView>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ProductoDescripcion"
+                android:id="@+id/textViewProductoDescripcion"
+                android:paddingTop="0dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Precio"
+                android:paddingTop="1dp"
+                android:id="@+id/textViewProductoPrecio" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:text="AÑADIR A LA CESTA"
+                android:id="@+id/buttonAddToCesta"
+                android:textSize="10dp" />
+
+            <View
+                android:layout_width="220dp"
+                android:layout_height="1dp"
+                android:background="@color/wallet_dim_foreground_inverse_disabled_holo_dark"
+                android:paddingTop="50dp" />
+
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

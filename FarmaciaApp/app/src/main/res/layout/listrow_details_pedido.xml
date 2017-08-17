@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:clickable="true"
+    android:orientation="horizontal"
+    android:paddingLeft="10dp"
+    tools:context=".PedidosActivity" >
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true">
+
+            <TextView
+                android:id="@+id/textViewItemNombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="5dp"
+                android:gravity="center_vertical"
+                android:text="Producto"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:paddingTop="5dp"
+                android:paddingLeft="45dp"
+                android:textColor="#000000">
+            </TextView>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2uds"
+                android:id="@+id/textViewItemCantidad"
+                android:paddingLeft="20dp"
+                android:paddingTop="0dp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Precio"
+                android:paddingTop="1dp"
+                android:paddingLeft="10dp"
+                android:id="@+id/textViewItemPrecio"
+                android:textColor="#020202" />
+
+
+
+            <View
+                android:layout_width="220dp"
+                android:layout_height="1dp"
+                android:background="@color/wallet_dim_foreground_inverse_disabled_holo_dark"
+                android:paddingTop="50dp" />
+
+        </LinearLayout>
+
+
+
+
+
+</LinearLayout>
